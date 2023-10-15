@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+
+
+    <node pkg="fre2023_team_mero" type="Ransac.py" name="Ransac"  />
+
+    <node pkg="fre2023_team_mero" type="row_enter_left_new_case.py" name="row_switch_left_end"  />
+
+    <node pkg="fre2023_team_mero" type="row_enter_right_new_case.py" name="row_switch_right_end"  />
+
+    <node pkg="fre2023_team_mero" type="row_navigation_without_yaw.py" name="row_navigation"  />
+
+
+</launch>
